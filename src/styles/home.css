@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+.container {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #353333;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .table th {
+    background-color:#353333;
+    color: #333;
+    font-family:"Roboto Slab", serif;
+ 
+  }
+  
+  .table td {
+    border-bottom: 1px solid #353333;
+        font-family:"Roboto Slab", serif;
+
+  }
+  
+  /* Estilos para los botones */
+  .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-warning {
+    background-color: #43ba1f;
+    color: #fff;
+  }
+  
+  .btn-warning:hover {
+    background-color: #1a921e;
+  }
+  
+  .btn-danger {
+    background-color: #d9534f;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c9302c;
+  }
+  
+  /* Estilos adicionales */
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-4 {
+    margin-top: 16px;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .gap-2 {
+    gap: 8px;
+  }
+  
+  /* Estilos para el mensaje de carga */
+  .loading-message {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

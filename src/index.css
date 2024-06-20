@@ -1,0 +1,85 @@
+  /* home.css */
+
+/* Estilos para la tabla */
+.container {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .table td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Estilos para los botones */
+  .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-warning {
+    background-color: #f0ad4e;
+    color: #fff;
+  }
+  
+  .btn-warning:hover {
+    background-color: #ec971f;
+  }
+  
+  .btn-danger {
+    background-color: #d9534f;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c9302c;
+  }
+  
+  /* Estilos adicionales */
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-4 {
+    margin-top: 16px;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .gap-2 {
+    gap: 8px;
+  }
+  
+  /* Estilos para el mensaje de carga */
+  .loading-message {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
